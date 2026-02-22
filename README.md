@@ -49,16 +49,16 @@ All integrated into a single, easy-to-use platform.
 
 ## 🛠️ Technology Stack
 **Frontend**
-- CSS
-- JavaScript
-- Next.js, React.js and TypeScript
+-css
+-javascript
+- Next.js / React
   
 
 **Backend**
-- Node.js
+- FastAPI / Node.js
 
-**Database and Authentication**
-- Firebase Auth and Firestore Database
+**Database**
+- Firebase 
 
 **AI / Logic**
 - Python-based recommendation logic
@@ -67,8 +67,8 @@ All integrated into a single, easy-to-use platform.
 - WebSockets
 
 **Cloud & Tools**
-- Google Cloud
-- Weather API
+- Google Cloud / AWS
+- Google Maps API
 
 ---
 
@@ -100,10 +100,16 @@ All integrated into a single, easy-to-use platform.
 ---
 
 ## 👨‍💻 Team
-**Team Name:** Bug Byte  
+**Team Name:** Tech4Life  
 A team of passionate developers and innovators focused on solving real-world healthcare challenges using technology.
 
-> **Medisphere – Smart Healthcare, Anytime, Anywhere
-> .**
+---
+
+## 📌 Project Status
+This project is currently a **working prototype**, developed for hackathons, bootcamps, and innovation showcases, with plans for real-world deployment and scaling.
+
+---
+
+> **Medisphere – When minutes matter, we help make the right decision.**
 
 
