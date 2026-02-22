@@ -49,16 +49,16 @@ All integrated into a single, easy-to-use platform.
 
 ## 🛠️ Technology Stack
 **Frontend**
--css
--javascript
-- Next.js / React
+- CSS
+- JavaScript
+- Next.js, React.js and TypeScript
   
 
 **Backend**
-- FastAPI / Node.js
+- Node.js
 
-**Database**
-- Firebase 
+**Database and Authentication**
+- Firebase Auth and Firestore Database
 
 **AI / Logic**
 - Python-based recommendation logic
@@ -67,8 +67,8 @@ All integrated into a single, easy-to-use platform.
 - WebSockets
 
 **Cloud & Tools**
-- Google Cloud / AWS
-- Google Maps API
+- Google Cloud
+- Weather API
 
 ---
 
