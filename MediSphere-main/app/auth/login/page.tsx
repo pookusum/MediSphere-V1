@@ -11,11 +11,11 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Activity, Mail, Lock, User, Phone, ArrowLeft, CheckCircle2, AlertCircle } from "lucide-react"
-import { useAuth } from "@/contexts/auth-context"
+import { useAuth } from "@/contexts/firebase-auth-context"
 
 export default function LoginPage() {
   const router = useRouter()
-  const { login, signup, isLoading } = useAuth()
+  const { login, signup, loading: isLoading } = useAuth()
   const [showSuccess, setShowSuccess] = useState(false)
   const [activeTab, setActiveTab] = useState<"login" | "signup">("login")
   const [error, setError] = useState("")

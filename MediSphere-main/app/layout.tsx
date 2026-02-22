@@ -1,7 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { GeistSans } from "geist/font/sans"
-import { GeistMono } from "geist/font/mono"
+// Removed Geist font imports due to prerendering issues
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import { AuthProvider } from "@/contexts/firebase-auth-context"
@@ -33,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
+      <body className={`font-sans antialiased`}>
         <Suspense fallback={null}>
           <ThemeProvider>
             <AuthProvider>
